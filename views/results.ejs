@@ -1,0 +1,5 @@
+    <h1>Star Wars</h1>
+    <% results.forEach(function(result) { %>
+      <h2>(<%= result.Year %>) <%= result.Title %></h2>
+      <img src="<%= result.Poster %>">
+    <% }); %>
